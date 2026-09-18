@@ -1,7 +1,11 @@
 [project]
-name = "09181-q014
+name = "invoice-financing-ledger"
 version = "0.1.0"
+description = "贸易发票融资台账：事件溯源、幂等可重算、防重复质押与超额放款"
 requires-python = ">=3.11"
 
 [project.scripts]
 service = "service.main:run"
+
+[tool.unittest]
+testpaths = ["tests"]
