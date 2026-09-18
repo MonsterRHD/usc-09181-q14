@@ -1,0 +1,7 @@
+[project]
+name = "09181-q014
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[project.scripts]
+service = "service.main:run"
